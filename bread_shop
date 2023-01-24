@@ -1,0 +1,11 @@
+s=int(input("enter the number of fresh bread"))
+t=int(input("enter the old bread count"))
+fresh=float(185)
+old=float(185*(40/100))
+freshly=fresh*s
+older=old*t
+totall=freshly+older
+
+print("total ammount of fresg bread= %.2f" % freshly)
+print("total ammount of old bread= %.2f"% older)
+print("total ammont= %.2f"% totall)
