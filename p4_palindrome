@@ -1,0 +1,9 @@
+string1=int(input("enter the integer"))
+str1=str(string1)
+str2=str1[::-1]
+print(str1)
+print(str2)
+if str1==str2:
+    print("its a palindrome")
+else:
+    print("not a palindrome")
